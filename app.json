@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "Barcode Shop",
+    "slug": "barcode-shop",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "com.local.barcode_shop",
+      "permissions": ["CAMERA"]
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow Barcode Shop to use the camera to scan product barcodes.",
+          "recordAudioAndroid": false
+        }
+      ],
+      "expo-sqlite"
+    ]
+  }
+}
